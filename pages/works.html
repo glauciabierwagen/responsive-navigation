@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/overlay.css">
+    <link rel="stylesheet" href="../styles/grid.css">
+    <title> Works </title>
+</head>
+<body>
+    <header>
+      <div id="myNav" class="overlay">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="../index.html">Home</a>
+            <a href="../pages/works.html">Works</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/contact.html">Contact</a>
+          </div>
+      </div>
+      <h2 class="font"> Works </h2>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </header>
+      <main>
+        <div class="container grid">
+          <img src="../images/figure1.png" alt="Abstarct Art" class="img1">
+          <img src="../images/figure2.png" alt="Man Cactus" class="img2">
+          <img src="../images/figure3.png" alt="Sunshine" class="img3">
+          <img src="../images/figure4.png" alt="Sundown" class="img4">
+          <img src="../images/figure5.png" alt="Ideas" class="img5">
+          <img src="../images/figure6.png" alt="Liberty" class="img6">
+          <img src="../images/figure7.png" alt="Walking Happiness" class="img7">
+          <img src="../images/figure8.png" alt="Alone in the desert" class="img8">
+          <img src="../images/figure9.png" alt="Sleepy Flowers" class="img9">
+          <img src="../images/figure10.png" alt="Face Paint" class="img10">
+          <img src="../images/figure11.png" alt="Piano Music" class="img11">
+          <img src="../images/figure12.png" alt="Tree Island" class="img12">
+        </div>
+     <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+      </main>
+ </body>
+</html>

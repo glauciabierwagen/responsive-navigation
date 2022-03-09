@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ad7474103a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/headerhome.css">
+    <title> Photographer </title>
+</head>
+<body>
+    <header>
+        <div class="layout__header">
+            <h2 class="logo">
+                Head.
+            </h2>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li> <a href="#home" class="active"> Home </a> </li>
+                <li><a href="pages/works.html">Works</a></li>
+                <li><a href="pages/services.html">Services</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+                <a class="icon" onclick="burgerMenu()">
+                    <i class="fa fa-bars"></i>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="layout__main">
+           <div class="container">
+                <div class="card">
+                    <div class="card__content">
+                        <h2 class="card__title">Photographer</h2>
+                        <p class="card__info">
+                            Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
+                            Donec viverra eleifend lacus, vitae ullamcor.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__content">
+                        <div class="card__img">
+                            <img src="images/photographer.jpg" alt="photographer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function burgerMenu() {
+                let burger = document.getElementById("nav-bar");
+                if (burger.className === "nav") {
+                burger.className += " responsive";
+                } else {
+                burger.className = "nav";
+                }
+            }
+            </script>
+    </main>
+</body>
+</html>

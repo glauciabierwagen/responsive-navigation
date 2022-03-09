@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/dropdown.css">
+    <title>Drop-down Navigation</title>
+</head>
+<body>
+    <div class="nav" id="drop-nav">
+      <a href="../index.html">Home</a>
+      <a href="../pages/works.html">Works</a>
+      <a href="../pages/services.html">Services</a>
+      <a href="../pages/contact.html">Contact</a>
+    <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a class="icon" onclick="dropNav()"><i class="fa fa-bars"></i></a>
+      </div>
+      
+      <div style="padding-left:16px">
+        <h2> Contact</h2>
+        <p> Leave your contact. </p>
+      </div>
+      
+      <script>
+      function dropNav() {
+        let drop = document.getElementById("drop-nav");
+        if (drop.className === "nav") {
+          drop.className += " responsive";
+        } else {
+          drop.className = "nav";
+        }
+      }
+      </script>
+      <form class="form" action="" > 
+        <input class="input_area" type="text" placeholder="Name" required autofocus maxlength="30" minlength="6">
+        <input class="input_area" type="e-mail" placeholder="Email" required autofocus maxlength="30" minlength="6">
+        <textarea class="text_box" id="letter" rows="3" placeholder="Message"></textarea>
+        <button class="submit-btn" type="submit">Submit</button>
+    </form>
+</body>
+</html>

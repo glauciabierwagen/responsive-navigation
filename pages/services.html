@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/side.css">
+    <title> Services </title>
+</head>
+<body>
+  <header>
+    <div id="side-nav" class="nav">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="../pages/works.html">Works</a>
+        <a href="../pages/services.html">Services</a>
+        <a href="../pages/contact.html">Contact</a>
+      </div>
+  </header>
+  <main> 
+       <div id="main">
+        <h2> Services</h2>
+           
+        <span class="open-btn" onclick="openNav()">&#9776; open</span>
+      </div>
+      <script>
+      function openNav() {
+        document.getElementById("side-nav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("side-nav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+      <div class="layout__main">
+        <div class="container">
+             <div class="card">
+                 <div class="card__content">
+                     <h2 class="card__title">Photos</h2>
+                     <p class="card__info">
+                         Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
+                         Donec viverra eleifend lacus, vitae ullamcor.
+                     </p>
+                 </div>
+             </div>
+             <div class="card">
+                 <div class="card__content">
+                     <div class="card__img">
+                         <img src="../images/photo.jpg" alt="Sundown">
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+  </main> 
+</body>
+</html>

@@ -1,0 +1,67 @@
+/Overlay Menu*/
+
+.font { 
+    font-family: Source Sans Pro, cursive;
+    font-size: 30px; }
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(180deg, rgb(201, 233, 245) 0%, rgb(127, 127, 129) 35%, rgb(242, 243, 243) 100%);   
+    background-color: #0c16449d;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+.overlay-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* position: relative; */
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: Source Sans Pro, cursive;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    background-color: linear-gradient(180deg, rgb(201, 233, 245) 0%, rgb(127, 127, 129) 35%, rgb(242, 243, 243) 100%);;
+    color: black;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+}
+  
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}
+
+
+
+
