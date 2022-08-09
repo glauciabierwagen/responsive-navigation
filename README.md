@@ -20,5 +20,5 @@
 - [Check out Page Speed Tester](https://developers.google.com/speed/pagespeed/insights/) (English)
 -	[Where SEO and User experience collide](https://www.searchenginejournal.com/seo-guide/where-seo-and-user-experience-ux-collide/) (English) 
 - [Starter guide for SEO](https://support.google.com/webmasters/answer/7451184?hl=en) (English)
-- [Google Analytics)(https://analyics.google.com/analytics/web/provision/?authuser=0#/provision) (English)
+- [Google Analytics](https://analyics.google.com/analytics/web/provision/?authuser=0#/provision) (English)
 
