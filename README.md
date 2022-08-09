@@ -1,5 +1,9 @@
 # Responsive Navigation
-<b> Course IT Women - Front End </b> 
+<b> Course IT Women - Front End </b>
+<br>
+<p align="center">
+  <img src="https://github.com/glauciabierwagen/responsive-design/blob/main/images/readmeimage.png"  heigth="750"/>
+</p>
 
 ## Guidelines
 - Creation of a form that collects the different type of data, including all the form validations. The design should elaborate in Figma or your own design.  
